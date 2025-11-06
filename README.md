@@ -59,6 +59,7 @@ Após isso, o programa será iniciado no console, exibindo o menu de gêneros e 
   Este projeto foi desenvolvido como parte de um estudo sobre a estrutura de dados "árvores", aplicando o conceito em uma situação prática: a recomendação de filmes baseada em decisões tomadas pelo usuário.
 
 ## Autor:
-  Desenvolvido por Artur Peres e [nome] como parte do curso de Análise e Desenvolvimento de Sistemas, na disciplina de Matemática Aplicada à Computação.
+  Desenvolvido por Artur Peres e Jonatham Araujo como parte do curso de Análise e Desenvolvimento de Sistemas, na disciplina de Matemática Aplicada à Computação.
 
   https://github.com/Artur-Peres
+  https://github.com/JonathamAraujo
