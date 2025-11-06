@@ -9,16 +9,16 @@ public class ArvoreDecisaoFilmes {
         No um;
         No dois;
 
-        No(String conteudoNo, No noAnterior) {
-            this.conteudo=conteudoNo;
-            this.anterior=noAnterior;
+        No(String conteudo, No anterior) {
+            this.conteudo=conteudo;
+            this.anterior=anterior;
             this.um=null;
             this.dois=null;
         }
 
-        No(String[] filmes, No noAnterior){
+        No(String[] filmes, No anterior){
             this.filmes=filmes;
-            this.anterior=noAnterior;
+            this.anterior=anterior;
             this.um=null;
             this.dois=null;
         }

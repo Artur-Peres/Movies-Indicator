@@ -5,7 +5,7 @@ public class Main {
         Scanner sc= new Scanner(System.in);
         System.out.print("Bem vindo(a) ao nosso Indicador de Filmes\n");
         String cont= "sim";
-        while (cont=="sim"){
+        while (cont.equals("sim")){
             System.out.printf("Escolha um gênero de filme: \n1-açao \n2-aventura \n3-ficçao cientifica \n4-drama \n5-romance \n6-comedia \n7-terror\n");
             String resposta=sc.next().trim().toLowerCase();
             if (resposta.equals("1")) {
@@ -34,7 +34,9 @@ public class Main {
             }
             System.out.print("Deseja outra recomendação de filme(Sim/Não): ");
             cont= sc.next().trim().toLowerCase();
-            if (cont=="nao" || cont=="não"){
+            if (cont.equals("nao") || cont.equals("não")){
+                System.out.println("Saindo ...");
+                System.out.println("Programa encerrado");
                 break;
             }
         }
